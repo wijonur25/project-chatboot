@@ -72,7 +72,7 @@ for message in st.session_state.messages:
 
 
 if add_radio == 'Text ✏':
-    model = genai.GenerativeModel(model_name="gemini-pro",
+    model = genai.GenerativeModel(model_name="gemini 1.5 flash",
                                 generation_config=generation_config,
                                 safety_settings=safety_settings)
     prompt = st.chat_input("Ask anything")
