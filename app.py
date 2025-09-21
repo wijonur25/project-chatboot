@@ -1,11 +1,9 @@
-import streamlit as st
-import google.generativeai as genai
 import google.ai.generativelanguage as glm
 import os
 import PIL 
 import io
 
-GOOGLE_API_KEY= st.secrets['AIzaSyCiq9-aqBCaLkK5bwj6YZtQqHxhPCGz1Bc']
+GOOGLE_API_KEY= st.secrets['GOOGLE_API_KEY']
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
